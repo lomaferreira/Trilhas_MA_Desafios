@@ -54,7 +54,7 @@ let idade1= 13;  //Define um nome e uma idade e imprime no console
 console.log("Olá, meu nome é " + nome1 +" e eu tenho " +idade1 +" anos");
 
 /*QUESTÃO 9*/
-for(i=0; i<=10; i++){ //Imprime de 0 a 10
+for(let i=0; i<=10; i++){ //Imprime de 0 a 10
     console.log(i);
 }
 
@@ -68,12 +68,12 @@ alert("Você acertou!");
 
 /*QUESTÃO 11*/
 let tabuada=7;
-for(i=1;i<=10;i++){ //Imprime a tabuada do 7
+for(let i=1;i<=10;i++){ //Imprime a tabuada do 7
     console.log("7x"+ i + " = " + tabuada*i);
 }
 
 /*QUESTÃO 12*/
-for(i=0; i<=20;i++){ //Imprime apenas os números pares
+for(let i=0; i<=20;i++){ //Imprime apenas os números pares
     if(i%2==0){
         console.log("É par o numero: " + i);
     }
